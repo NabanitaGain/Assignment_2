@@ -5,46 +5,255 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-.card-container{
-  /* 
+/*nav design*/
+.header-main{
+  background-color: white;
+  background-image: none;
+}
+.navber{
 position: absolute;
-width: 1224px;
-height: 747.15px;
+width: 1300px;
+height: 102px;
 left: 0;
-top: 573.75px;
-/* Auto layout 
+top: 0;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+gap: 10;
+padding: 20px 0px 20px 0px;
+}
+.header-logo{
+  display:flex;
+  /* Group */
+position: absolute;
+width: 52.61px;
+height: 62px;
+left: 13%;
+right: 7.58%;
+top: 22%;
+bottom: 0%;
+}
+.head{
+  color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 32px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.home-a{
+  color: rgb(254, 163, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-a{
+  color: rgb(1, 172, 253);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.facilities-a{
+  color: rgb(5, 212, 223);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.admission-a{
+  color: rgb(93, 88, 239);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.nav-ul{
+  display: flex;
+  /* Frame 1 */
+position: relative;
+width: 387px;
+height: 30px;
+top: 0%;
+left: 120%;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 32px;
+}
+.btn-nav{
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  width: 180px;
+  height: 50px;
+  margin-left: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  padding: 0px;
+  border:none;
+}
+
+.nav-btn-font{
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/*banner*/
+
+.banner-container{
+  /* Banner */
+position: absolute;
+width: 600px;
+height: 575px;
+left: 115px;
+top: 100px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 0px;
+}
+.banner-head1{
+  color: orange;
+}
+.banner-head2{
+  color: rgba(0, 0, 0, 1);
+}
+.banner-head3{
+  color: rgba(0, 0, 0, 1);
+}
+.banner-head4{
+  color: rgb(1, 172, 253);
+}
+.banner-content{
+  /* Frame 4 */
+position: static;
+width: 544px;
+height: 281.35px;
+/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: center;
-gap: 80;
-padding: 60px 0px 60px 0px;*/
+align-items: flex-start;
+gap: 24;
+padding: 0px;
 
 
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 50px;
 }
+.banner-head{
+  font-family: Quicksand;
+font-size: 47.6px;
+font-weight: 596px;
+line-height: 51.85px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-para{
+  color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 17px;
+font-weight: 340px;
+line-height: 21.25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-lower{
+  color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-lower-porsion{
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  /* Frame 3 */
+position: static;
+width: 197px;
+height: 50px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.banner-img{
+position: static;
+width:  398.31px;
+height: 488.75px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 50px;
+margin-left: 170px;
+}
+
+/*main-card*/
 
 .card-container{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  
+  position: absolute;
+width: 1229px;
+height: 879px;
+left: 140px;
+right:-140px;
+top: 675px;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+gap: 80;
+padding: 60px 0px 60px 0px;
 }
 
 .title{
   color: rgb(0, 0, 0);
   font-family: Quicksand;
   font-size: 46px;
-  font-weight: 700;
+  font-weight: 700px;
   line-height: 57.5px;
   letter-spacing: 0%;
   text-align: center;
+  margin-top:45px;
+  gap: 80px;
 }
-
-
-
-
 
 .card1{
   box-sizing: border-box;
@@ -78,7 +287,7 @@ padding: 60px 0px 60px 0px;*/
   width: 211.06px;
   height: 31.13px;
   left: 78.57px;
-  top: 221.65px;
+  top: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -97,7 +306,7 @@ padding: 60px 0px 60px 0px;*/
   position: absolute;
   width: 286.26px;
   height: 74.51px;
-  left: 40.88px;
+  left: 55px;
   top: 286.26px;
   display: flex;
   flex-direction: row;
@@ -117,6 +326,9 @@ color: rgba(0, 0, 0, 0.05);
 .btn{
   border: none;
   background-color: white;
+}
+button:hover{
+  filter: brightness(50%);
 }
 .text-1{
   color: rgb(100, 200, 255);
@@ -153,7 +365,7 @@ position: absolute;
 width: 223.27px;
 height: 31.13px;
 left: 72.47px;
-top: 226.37px;
+top: 200px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -176,10 +388,6 @@ line-height: 28.3px;
 letter-spacing: 0%;
 text-align: center;
 }
-
-
-
-
 
 .card3{
   box-sizing: border-box;
@@ -205,7 +413,7 @@ position: absolute;
 width: 231.6px;
 height: 31.13px;
 left: 68.31px;
-top: 221.65px;
+top: 200px;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -233,6 +441,7 @@ text-align: center;
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 570px;
 }
 .scroll button{
   background-color: #FF9800;
@@ -260,16 +469,17 @@ align-items: center;
 gap: 80;
 padding: 60px 0px 60px 0px;
 background: url(./assets/bg.png);
+margin-top: 700px;
 }
 
-
+/*footer*/
 .footer{
   /* Rectangle 17 */
   position: absolute;
   width: 1439px;
   height: 519px;
   left:1px;
-  top:1018px;
+  top:2000px;
   background: rgb(1, 172, 253);
 }
 .footer-2{
@@ -324,7 +534,7 @@ bottom: 175px;
 .footer-container{
   display: flex;
   position: absolute;
-  Width: 1070.91px;
+  Width: 1229px;
   Height: 222px;
   Left: 141px;
 }
